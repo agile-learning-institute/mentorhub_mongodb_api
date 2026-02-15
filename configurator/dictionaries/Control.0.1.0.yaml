@@ -1,0 +1,21 @@
+file_name: Control.0.1.0.yaml
+root:
+  name: Control
+  description: A sample Control (CRUD) collection
+  type: object
+  properties:
+  - name: _id
+    description: The unique identifier for the Control.
+    type: identifier
+  - name: name
+    description: The searchable name of the document
+    type: word
+  - name: description
+    description: The description of the Control.
+    type: sentence
+  - name: created
+    description: The tracking breadcrumb for when the document was created.
+    type: breadcrumb
+  - name: saved
+    description: The tracking breadcrumb for when the document was last saved.
+    type: breadcrumb

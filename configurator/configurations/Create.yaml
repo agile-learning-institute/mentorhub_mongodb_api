@@ -1,5 +1,5 @@
-file_name: {{item.name}}.yaml
-description: {{item.description}}
+file_name: Create.yaml
+description: A sample Create (Write Once, Read Many) collection
 versions:
 - version: 0.1.0.0
   _locked: false
@@ -15,5 +15,4 @@ versions:
     options: {}
   drop_indexes: []
   migrations: []
-  test_data: {{item.name}}.0.1.0.0.json
-
+  test_data: Create.0.1.0.0.json

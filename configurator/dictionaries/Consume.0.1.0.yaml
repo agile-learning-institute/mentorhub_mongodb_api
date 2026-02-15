@@ -1,17 +1,17 @@
-file_name: {{item.name}}.0.1.0.yaml
+file_name: Consume.0.1.0.yaml
 root:
-  name: {{item.name}}
-  description: {{item.description}}
+  name: Consume
+  description: A sample Consume (Read Only) collection
   type: object
   properties:
   - name: _id
-    description: The unique identifier for the {{item.name}}.
+    description: The unique identifier for the Consume.
     type: identifier
   - name: name
     description: The searchable name of the document
     type: word
   - name: description
-    description: The description of the {{item.name}}.
+    description: The description of the Consume.
     type: sentence
   - name: created
     description: The tracking breadcrumb for when the document was created.
@@ -19,4 +19,3 @@ root:
   - name: saved
     description: The tracking breadcrumb for when the document was last saved.
     type: breadcrumb
-
